@@ -28,7 +28,7 @@ The TRM-Based Adaptive Embedding Scalable Retrieval System (TAESR) is a demo ver
 
 1. Clone the repository:
     ```bash
-    git clone [(https://github.com/IshanKun/TAESR.git)]
+    git clone https://github.com/IshanKun/TAESR.git
     cd {dir}
     ```
 
