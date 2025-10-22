@@ -1,0 +1,20 @@
+{
+  "architecture": "self_attention",
+  "layers": 6,
+  "hidden_dim": 1024,
+  "max_seq_length": 2048,
+  "vocab_size": 150000,
+  "max_recursion_steps": 12,
+  "use_early_exit": false,
+  "early_exit_threshold": 0.98,
+  "learning_rate": 0.00005,
+  "weight_decay": 0.05,
+  "ema_decay": 0.9995,
+  "batch_size": 16,
+  "max_epochs": 300,
+  "warmup_steps": 10000,
+  "use_gradient_checkpointing": true,
+  "mixed_precision": true,
+  "cache_size": 100000,
+  "enable_monitoring": true
+}

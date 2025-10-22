@@ -1,0 +1,20 @@
+{
+  "architecture": "mlp_mixer",
+  "layers": 2,
+  "hidden_dim": 256,
+  "max_seq_length": 256,
+  "vocab_size": 30000,
+  "max_recursion_steps": 3,
+  "use_early_exit": true,
+  "early_exit_threshold": 0.9,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.1,
+  "ema_decay": 0.999,
+  "batch_size": 128,
+  "max_epochs": 50,
+  "warmup_steps": 1000,
+  "use_gradient_checkpointing": false,
+  "mixed_precision": true,
+  "cache_size": 20000,
+  "enable_monitoring": true
+}
